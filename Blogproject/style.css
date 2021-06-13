@@ -1,0 +1,56 @@
+ 
+        table, td {
+            border: 1px solid;
+		
+        }
+
+        td {
+          padding: 10px;
+		  
+		  
+        }
+		
+		  .ostatniwiersz {
+        background-color: green;
+    }
+	
+	
+	.inputek {
+		width: 200px;
+		
+	}
+	
+	#pierwszy{
+		float: left;
+		margin-top: -75px;	
+	}
+	
+	#drugi{
+		
+		float: left;
+		margin-right: 100px; 
+	}
+	
+	
+	
+	
+
+	
+	.piesek{
+		
+		width: 20%;
+		height: 20%;
+		top: 8px;
+		right: 16px;
+		position: fixed;
+	}
+	
+	
+	#formularz{
+		tr{
+		width: 200px;
+		}
+	}
+	
+		
+    
