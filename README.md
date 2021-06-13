@@ -1,2 +1,4 @@
-# progress_documentation-
-In this repository I document some of my projects as well as work connected with studying ICT
+# C/C++ programs
+
+There are some completed tasks from university C++ course 
+
