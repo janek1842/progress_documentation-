@@ -1,2 +1,2 @@
-# progress_documentation-
-In this repository I document some of my projects as well as work connected with studying ICT
+# Others
+In this branch I document some work which is not tightly connected with technnical knowledge.   
