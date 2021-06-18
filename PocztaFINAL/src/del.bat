@@ -1,0 +1,1 @@
+del poczta\BazaDanych.class poczta\FolderKonta.class poczta\Interpreter.class poczta\Klient.class poczta\Konto.class poczta\ObslugaStrumieni.class poczta\Serwer$1.class poczta\Serwer.class poczta\Wiadomosc.class poczta\Wydarzenie.class poczta\ListaInt.class poczta\ListaWiadomosci.class poczta\Szyfrator.class
