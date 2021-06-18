@@ -1,2 +1,7 @@
-# progress_documentation-
-In this repository I document some of my projects as well as work connected with studying ICT
+# Java programs and projects 
+
+ObjectLabs - Some programs from my JAVA university course 
+
+ProjektSAMOCHÓD - My own project created at the end of the university laboratories 
+
+PocztaFINAL - Java project in which I participated (I was responsible for GUI and in defining some of the classes)
