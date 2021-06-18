@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+public class Lotto {
+    public static void main(String[] args) {
+        Random rand = new Random();
+        int number;
+
+        List<Integer> a = new ArrayList<Integer>();
+
+        for (int i = 1; i <= 6; i++) {
+            number = rand.nextInt(49);
+
+            if(!a.contains(number))
+            {
+                a.add(number);
+                System.out.print(number+ " ");
+            }
+
+
+        }
+    }
+}
+
+
+
