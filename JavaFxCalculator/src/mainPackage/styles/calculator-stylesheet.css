@@ -1,0 +1,13 @@
+.number-button{
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+}
+
+.use-button{
+    -fx-font-size: 15 px;
+}
+.up-labels{
+    -fx-font-weight: bold;
+    -fx-font-size: 35px;
+}
+
