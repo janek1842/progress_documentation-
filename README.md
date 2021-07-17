@@ -1,4 +1,3 @@
-# progress_documentation-
-In this repository I document some of my projects as well as work connected with studying ICT
+# Python
+In this repository I document my Python scripts and projects 
 
-Switch to other branches to see code 
