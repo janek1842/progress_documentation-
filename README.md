@@ -11,3 +11,5 @@ JavaFxCalculator - Simple demo project from JavaFx course
 MyZipp - simple program for making zip files both for files and directories
 
 FinanceAssistant - login/register background in JavaFx for future project 
+
+Java JPWP - tasks prepared for me by my university friends
