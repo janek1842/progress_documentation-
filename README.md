@@ -1,4 +1,4 @@
-# Java programs and projects 
+# Java scripts and projects 
 
 ObjectLabs - Some programs from my JAVA university course 
 
