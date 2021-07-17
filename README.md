@@ -7,3 +7,5 @@ ProjektSAMOCHÓD - My own project created at the end of the university laborator
 PocztaFINAL - Java project in which I participated (I was responsible for GUI and in defining some of the classes)
 
 JavaFxCalculator - Simple demo project from JavaFx course
+
+MyZipp - simple program for making zip files both for files and directories
