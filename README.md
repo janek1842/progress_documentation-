@@ -9,3 +9,5 @@ PocztaFINAL - Java project in which I participated (I was responsible for GUI an
 JavaFxCalculator - Simple demo project from JavaFx course
 
 MyZipp - simple program for making zip files both for files and directories
+
+Finance Assistant - login/register background in JavaFx for future project 
