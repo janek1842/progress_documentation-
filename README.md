@@ -1,4 +1,4 @@
-# UniversityScripts
+# University_Scripts
 
 ## In this repository I document some of my minor projects and work related to studying ICT
 
