@@ -1,6 +1,6 @@
 # Telecommunication 
 
-Some documents and work related to telecomunications fundamentals:
+## Some documents and work related to telecomunications fundamentals:
 
 - Radio
 - Optical networks
