@@ -1,4 +1,5 @@
-# progress_documentation-
-In this repository I document some of my projects as well as work connected with studying ICT
+# UniversityScripts
 
-Switch to other branches to see code 
+## In this repository I document some of my minor projects and work related to studying ICT
+
+Switch to other branches to see code !  
