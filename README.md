@@ -1,6 +1,6 @@
-# WWW project created during University laboratories
+# WWW
 
-## HTML/CSS/PHP
+## University projects 
 
-Blog project created from laboratory instructions. 
+- Blog project created from laboratory instructions. 
 
