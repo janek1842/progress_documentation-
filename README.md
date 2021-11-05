@@ -1,17 +1,19 @@
 # Java scripts and projects 
 
-ObjectLabs - Some programs from my JAVA university course 
+## Simple self-completed projects
 
-ProjektSAMOCHÓD - My own project created at the end of the university laboratories 
+- Pong Game - project about popular and simple game
+- MyZipp - simple program for making zip files both for files and directories
+- FinanceAssistant - login/register background in JavaFx for future project 
 
-PocztaFINAL - Java project in which I participated (I was responsible for GUI and in defining some of the classes)
+## Complete projects made for OOP university course
 
-JavaFxCalculator - Simple demo project from JavaFx course
+- ProjektSAMOCHÓD - My own project created at the end of the university laboratories 
+- PocztaFINAL - Java project (I was responsible for GUI and defining some of the classes)
 
-MyZipp - simple program for making zip files both for files and directories
+## Others 
 
-FinanceAssistant - login/register background in JavaFx for future project 
-
-Java JPWP - tasks prepared for me by my university friends
-
-Pong Game - project about popular and simple game
+- ObjectLabs - Some programs from my JAVA university course 
+- JavaFxCalculator - Simple demo project from JavaFx course
+- Java JPWP - tasks prepared for me by my university friends
+- and more :)
