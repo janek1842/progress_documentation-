@@ -6,6 +6,7 @@
 
 - Hangman
 - ProjectsForFun
+- PythonChallenge
 
 ### Tasks from university course
 
