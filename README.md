@@ -6,6 +6,8 @@
 - Optical networks
 - Network devices 
 - MPLS
+- Quality of Service
+- Simulation Methods
 - Others
 
 
