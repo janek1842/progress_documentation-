@@ -1,3 +1,3 @@
-# Others
+# Math Optimization in Telecommunications Problems  
 
-#### In this branch I document my work which is not strictly related to technnical knowledge.   
+This project targetted the problem defined in the Optimization of IoT Slices in WiFi Enterprise Networks article
