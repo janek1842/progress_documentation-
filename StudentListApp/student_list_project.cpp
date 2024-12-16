@@ -77,31 +77,117 @@ bool validate_index(string index){
     return 1;
 }
 
-
 void display_error_message()
 {
     cout << "\nYou made it wrong! Please try again, next time type appropriate option" << endl;
     abort();
 }
 
-void display_student_list()
-{
-    cout << "\nPrinting student list\n"
-         << endl;
-
-    ifstream myfile;
-    myfile.open("student_list.csv");
-
-    while (myfile.peek() != EOF)
-    {
-        string records;
-        getline(myfile, records);
-        cout << records << endl;
+bool comp(string a, string b) {
+    vector<string> va;
+ 
+    stringstream ssa(a);
+ 
+    while (ssa.good()) {
+        string substr;
+        getline(ssa, substr, ',');
+        va.push_back(substr);
     }
 
-    myfile.close();
-    cout << "\n"
-         << endl;
+    vector<string> vb;
+    stringstream ssb(b);
+ 
+    while (ssb.good()) {
+        string substr;
+        getline(ssb, substr, ',');
+        vb.push_back(substr);
+    }
+    return stoi(va[2]) < stoi(vb[2]);
+}
+
+bool compsurname(string a, string b) {
+    vector<string> va;
+ 
+    stringstream ssa(a);
+ 
+    while (ssa.good()) {
+        string substr;
+        getline(ssa, substr, ',');
+        va.push_back(substr);
+    }
+
+    vector<string> vb;
+    stringstream ssb(b);
+ 
+    while (ssb.good()) {
+        string substr;
+        getline(ssb, substr, ',');
+        vb.push_back(substr);
+    }
+    return (va[1] < vb[1]);
+}
+
+void display_student_list(bool sort_by_index=0,bool sort_by_surname=0)
+{
+
+    if(sort_by_index==0 && sort_by_surname==0){
+        cout << "\nPrinting student list\n"
+            << endl;
+
+        ifstream myfile;
+        myfile.open("student_list.csv");
+
+        while (myfile.peek() != EOF)
+        {
+            string records;
+            getline(myfile, records);
+            cout << records << endl;
+        }
+
+        myfile.close();
+        cout << "\n"
+            << endl;
+    }
+    else {
+        if (sort_by_index){
+        cout << "\nPrinting student list ordered by index number\n"
+            << endl;
+        }
+        else if (sort_by_surname){
+        cout << "\nPrinting student list ordered by surname\n"
+            << endl;
+        }
+
+        ifstream myfile;
+        myfile.open("student_list.csv");
+                
+        vector<string> row;
+        string row_data;
+
+        while(getline(myfile, row_data))
+        {
+            if (row_data != "name,surname,index"){
+                row.push_back(row_data);
+            }
+        }
+
+        if (sort_by_index){
+            sort(row.begin(), row.end(),comp);
+        }
+        else if (sort_by_surname){
+            sort(row.begin(), row.end(),compsurname);
+        }
+
+        cout<<"name,surname,index"<<endl;
+        for (size_t i = 0; i < row.size(); i++)
+            cout << row[i] << '\n';
+
+        myfile.close();
+        cout << "\n"
+            << endl;
+    }
+
+
     back_to_menu();
 }
 
@@ -273,10 +359,10 @@ void display_menu()
         remove_student_list();
         break;
     case 4:
-        display_student_list();
+        display_student_list(0,1);
         break;
     case 5:
-        display_student_list();
+        display_student_list(1,0);
         break;
     default:
         display_error_message();
